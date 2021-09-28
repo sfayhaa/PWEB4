@@ -1,0 +1,178 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #262424;
+}
+
+header {
+    top: 0;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+.nav {
+    list-style: inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    color: rgb(12, 5, 62);
+    padding: 10px;
+}
+
+.row {
+    margin-top: 100px;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.produk {
+    border-radius: 10%;
+    width: 354px;
+    height: 472px;
+    float: right;
+}
+
+p {
+    height: left;
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 2;
+}
+
+.button {
+    background-color: #568db5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 90px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+#comingsoon h2 {
+    color: #3f72af !important;
+}
+
+.comingsoon-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-comingsoon {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-comingsoon img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.kartu-comingsoon p {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #71a0d6;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section button {
+    color: #FFFFFF;
+    background-color: #3f72af;
+}
+
+.footer-section button:hover {
+    color: #87a3b4;
+    background-color: #fc5185;
+}
+
+h3 {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #507298;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
